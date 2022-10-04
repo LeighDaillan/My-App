@@ -9,11 +9,11 @@ const NavigationBar = function (props) {
   const activeDesign = "text-blue-700 font-bold";
 
   return (
-    <nav>
+    <nav className="w-full inline-block p-3">
       <div className="grid grid-cols-2 my-4 mx-8">
         <div>
           <span className="h-3 w-3 bg-blue-500 rounded-full inline-block mb-1"></span>
-          <h1 className="font-mont font-bold text-xl inline-block mx-2">
+          <h1 className="font-mont font-bold text-2xl inline-block mx-2">
             Daillan Leigh
           </h1>
         </div>
