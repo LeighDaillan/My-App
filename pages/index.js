@@ -1,7 +1,16 @@
 import Head from "next/head";
+import Link from "next/link";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import React from "react";
+import { Fragment } from "react";
+import NavigationBar from "./Navigation/navigation-bar.js";
 
-export default function Home() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
-}
+const HomePage = function () {
+  return (
+    <Fragment>
+      <NavigationBar page="Home"></NavigationBar>
+    </Fragment>
+  );
+};
+
+export default HomePage;
