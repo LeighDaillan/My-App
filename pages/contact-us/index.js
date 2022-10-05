@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import NavigationBar from "../Navigation/navigation-bar.js";
+// import NavigationBar from "../Navigation/navigation-bar.js";
 import $ from "jquery";
 
 let container = [];
@@ -32,7 +32,7 @@ const ContactUs = function () {
 
   return (
     <Fragment>
-      <NavigationBar page="Contact Us"></NavigationBar>
+      {/* <NavigationBar page="Contact Us"></NavigationBar> */}
 
       <div className="bg-slate-300 h-auto w-auto p-10 font-pop">
         <div className="ml-10 mt-5">

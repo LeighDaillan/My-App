@@ -1,15 +1,18 @@
 import React from "react";
+import Image from "next/image";
 import { Fragment } from "react";
-import { LoremIpsum } from "react-lorem-ipsum";
-import NavigationBar from "./Navigation/navigation-bar.js";
+import codeImg from "../public/code.png";
 
 const HomePage = function () {
   return (
     <Fragment>
-      <NavigationBar page="Home"></NavigationBar>
-
       <div className="grid grid-cols-2 gap-4 items-center py-24">
-        <img src="./code.png" className="h-96 justify-self-end" />
+        <Image
+          src={codeImg}
+          className="justify-self-end"
+          alt="code image"
+          objectFit="contain"
+        />
         <div className="justify-center leading-relaxed">
           <h1 className="font-mont text-green-600 font-bold text-8xl">
             Hello!
