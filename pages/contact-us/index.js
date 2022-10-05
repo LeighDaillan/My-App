@@ -37,7 +37,7 @@ const ContactUs = function () {
       <div className="bg-slate-300 h-auto w-auto p-10 font-pop">
         <div className="ml-10 mt-5">
           <h1 className="text-3xl font-bold mb-2 ">Connect With Us</h1>
-          <p>
+          <p className="text-xl">
             We would love you respond to your queries and help you succeed.{" "}
             <br />
             Feel free to get in touch with us.
@@ -45,8 +45,8 @@ const ContactUs = function () {
         </div>
 
         <div className="grid grid-cols-2 mx-14 my-10">
-          <form id="contact-form" className="bg-white p-10">
-            <h2 className="text-blue-800 font-bold text-xl mb-10">
+          <form id="contact-form" className="bg-white p-10 text-lg">
+            <h2 className="text-blue-800 font-bold text-2xl mb-10">
               Send your request
             </h2>
 
@@ -93,8 +93,8 @@ const ContactUs = function () {
             </button>
           </form>
 
-          <div className="bg-blue-800 p-10 text-white">
-            <h2 className=" text-xl mb-10">Reach Us</h2>
+          <div className="bg-blue-800 p-10 text-white text-lg">
+            <h2 className=" text-2xl mb-10">Reach Us</h2>
             <table className="table-fixed">
               <tbody>
                 <tr>
