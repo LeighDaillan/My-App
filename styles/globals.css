@@ -5,3 +5,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.question-number {
+  @apply text-5xl mr-5 text-red-600;
+}
+
+.question {
+  @apply text-xl ml-4 inline;
+}
+
+.answer-logo {
+  @apply text-5xl text-gray-500  mr-5;
+}
+
+.answer {
+  @apply text-xl ml-4 inline-block text-gray-500;
+}
