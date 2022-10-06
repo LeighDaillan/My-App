@@ -7,17 +7,17 @@
 @tailwind utilities;
 
 .question-number {
-  @apply text-5xl mr-5 text-red-600;
+  @apply text-4xl lg:text-5xl text-red-600;
 }
 
 .question {
-  @apply text-xl ml-4 inline;
+  @apply inline-block text-lg lg:text-xl ml-4;
 }
 
 .answer-logo {
-  @apply text-5xl text-gray-500  mr-5;
+  @apply text-5xl text-gray-500  text-4xl lg:text-5xl;
 }
 
 .answer {
-  @apply text-xl ml-4 inline-block text-gray-500;
+  @apply text-xl ml-4 inline-block text-gray-500 text-lg lg:text-xl;
 }

@@ -6,7 +6,7 @@ import codeImg from "../public/code.png";
 const HomePage = function () {
   return (
     <Fragment>
-      <div className="grid grid-cols-2 gap-4 items-center py-24">
+      <div className="grid grid-cols-2 gap-4 items-center py-24 mx-10">
         <Image
           src={codeImg}
           className="justify-self-end"
@@ -14,10 +14,10 @@ const HomePage = function () {
           objectFit="contain"
         />
         <div className="justify-center leading-relaxed">
-          <h1 className="font-mont text-green-600 font-bold text-8xl">
+          <h1 className="font-mont text-green-600 font-bold text-6xl lg:text-8xl">
             Hello!
           </h1>
-          <p className="text-4xl font-mont leading-relaxed">
+          <p className="text-xl md:text-2xl lg:text-4xl font-mont leading-relaxed">
             I'm <span>Daillan Leigh Franco</span>, a <br />
             future Front End Developer
           </p>

@@ -44,7 +44,7 @@ const ContactUs = function () {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 mx-14 my-10">
+        <div className="grid lg:grid-cols-2 mx-14 my-10">
           <form id="contact-form" className="bg-white p-10 text-lg">
             <h2 className="text-blue-800 font-bold text-2xl mb-10">
               Send your request
